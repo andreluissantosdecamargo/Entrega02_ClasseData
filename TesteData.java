@@ -1,5 +1,5 @@
 
-public class DataTeste {
+public class TesteData {
     public static void main(String[] args) {
         // Teste em construtores e formatos
         Data data1 = new Data();
