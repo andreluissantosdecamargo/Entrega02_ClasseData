@@ -19,13 +19,13 @@ public class Hora2 {
 	public Hora2(int hour, int minute, int second){
 
 		if (hour < 0 || hour >= 24)
-		throw new IllegalArgumentException("hour must be 0-23");
+		throw new IllegalArgumentException("hora deve ser 0-23");
 	
 		if (minute < 0 || minute >= 60)
-		throw new IllegalArgumentException("minute must be 0-59");
+		throw new IllegalArgumentException("minuto deve ser 0-59");
 		
 		if (second < 0 || second >= 60)
-		throw new IllegalArgumentException("second must be 0-59");
+		throw new IllegalArgumentException("o segundo deve ser 0-59");
 		
 		this.hour = hour;
 		this.minute = minute;
